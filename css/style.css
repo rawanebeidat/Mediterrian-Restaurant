@@ -35,7 +35,7 @@ color:#b20808 !important;
 /********************Carousel Img*********************/
 
 .carousel-inner{
-    max-height: 800px !important;
+    max-height: 900px !important;
 
 }
 
@@ -53,12 +53,14 @@ transition: transform 1.2s ease;
 
 /*************footer**********/
 footer{
-    padding: 16px 32px 48px;
+    padding:0;
+    
 }
 
 footer img{
     height: 55px;
     margin:24px auto ;
+
 }
 
  footer a{
@@ -98,3 +100,20 @@ ul.social li{
 .social li a i:hover {
     background:blanchedalmond;
 }
+/********************contact********************/
+.col-md-9 mb-md-0 mb-5{
+padding-left: 15px;
+}
+
+/***********************image*********************/
+ .thumb{
+            margin-bottom: 30px;
+        }
+
+img.zoom {
+    width: 100%;
+    height: 200px;
+    border-radius:5px;
+    object-fit:cover;
+}
+        
