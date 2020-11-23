@@ -5,6 +5,7 @@ body{
     height: 100%;
     color:#b20808;
     font-family:'Alegreya', sans-serif ;
+    font-weight: 500;
 }
 
 
@@ -148,7 +149,9 @@ position:absolute;
     color: #fafafa;
     background-color: #b20808;
 }
-.col-md-4 p{
-    font-family: 'Alegreya', sans-serif;
-    font-weight: 500;
+/*****************about us******************/
+
+.gap100{
+    padding: 70px  0; 
 }
+
