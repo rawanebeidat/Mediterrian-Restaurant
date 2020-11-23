@@ -100,12 +100,13 @@ ul.social li{
 .social li a i:hover {
     background:blanchedalmond;
 }
+
 /********************contact********************/
 .col-md-9 mb-md-0 mb-5{
 padding-left: 15px;
 }
 
-/***********************image*********************/
+/***********************images gallery*********************/
  .thumb{
             margin-bottom: 30px;
         }
@@ -116,4 +117,38 @@ img.zoom {
     border-radius:5px;
     object-fit:cover;
 }
-        
+
+
+/********************contact*********************/
+.map-container-6{
+overflow:hidden;
+padding-bottom:56.25%;
+position:relative;
+height:0;
+}
+.map-container-6 iframe{
+left:0;
+top:0;
+height:100%;
+width:100%;
+position:absolute;
+}
+        /******************************form**************/
+
+.form-header {
+    font-family: 'Alegreya', sans-serif;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+
+    button[type="submit"] {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    color: #fafafa;
+    background-color: #b20808;
+}
+.col-md-4 p{
+    font-family: 'Alegreya', sans-serif;
+    font-weight: 500;
+}
