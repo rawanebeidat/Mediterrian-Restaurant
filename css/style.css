@@ -6,10 +6,12 @@ body{
     color:#b20808;
     font-family:'Alegreya', sans-serif ;
     font-weight: 500;
+
 }
 
 
 /*********************Logo & navbar********************/
+
 .navbar-brand img{
     height: 48px;
 }
@@ -34,9 +36,11 @@ color:#b20808 !important;
 
 
 /********************Carousel Img*********************/
-
+.section{
+    margin:10px;
+}
 .carousel-inner{
-    max-height: 900px !important;
+    max-height: 800px !important;
 
 }
 
@@ -55,34 +59,29 @@ transition: transform 1.2s ease;
 /*************footer**********/
 footer{
     padding:0;
+    background-color: #f8f9fa;
     
 }
 
 footer img{
     height: 55px;
     margin:24px auto ;
+    padding-left: 20px;
+    
 
 }
 
  footer a{
-color:black;
+color:#b20808;
 text-decoration: none;
 }
 
-
-ul.social{
-    list-style-type: none;
-    display: flex;
-    max-width:256px;
-    margin: 0 auto;
-    padding: 0;
+.social-links {
+    padding-bottom: 15px;
+    text-align: center;
 }
 
-ul.social li{
-    margin: 0 auto;
-}
-
-.social li a i {
+.social-links li a i {
     width: 32px;
     height: 32px;
     padding: 12px 0;
@@ -90,21 +89,44 @@ ul.social li{
     font-size: 13px;
     line-height: 7px;
     text-align: center;
-    color: white;
-    background:#b20808; 
+    color: #fafafa;
+    background: #b20808;
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
     -o-transition: all 0.35s ease-in-out;
 }
+p.inline-block{
+    text-align: center;
+    font-size: 15px;
+}
 
-.social li a i:hover {
-    background:blanchedalmond;
+.social-links li a i:hover {
+    background: #e84610;
+}
+.uppercase {
+    text-transform: uppercase;
+}
+
+.general-sub {
+    color:#b20808;
+    font-family:'Alegreya', sans-serif ;
+    font-weight:500 ;
+    padding-top: 5px;
+    text-align: center;
 }
 
 /***********************images gallery*********************/
+
+.gap2002{
+padding-top: 30px;
+
+}
+
+
  .thumb{
-            margin-bottom: 30px;
+    margin-bottom: 30px;
+    
         }
 
 img.zoom {
@@ -116,6 +138,10 @@ img.zoom {
 
 
 /********************contact map*********************/
+
+.gap200{
+    padding:50px 0;
+}
 .map-container-6{
 overflow:hidden;
 padding-bottom:56.25%;
@@ -139,18 +165,31 @@ padding-left: 15px;
     margin-top: 25px;
     margin-bottom: 20px;
 }
+.center-form {
+    padding-top: 10px;
+    margin: 0 auto;
+    max-width: 70%;
+}
 
-
-    button[type="submit"] {
+button[type="submit"] {
     margin-top: 15px;
     margin-bottom: 20px;
     color: #fafafa;
     background-color: #b20808;
 }
+
+    @media(min-width: 992px) {
+    .center-form {
+        padding-top: 30px;
+        min-height: 240px;
+        margin: 0 auto;
+        max-width: 50%;
+    }
+}
 /*****************about us******************/
 
 .gap100{
-    padding: 70px  0; 
+    padding:55px 0; 
 }
 P{
     padding:10px;
@@ -160,10 +199,10 @@ P{
 }
 
 /******************Menu********************/
-
-.section-title{
-    padding-top:15px;
-    padding-bottom: 10px;
+img .pic{
+    
+    width:70px;
+    height:70px;
 }
 h3{
     color:#ffbd59;
@@ -177,7 +216,4 @@ h3{
 .single_menu_list h5 span {
 	float: right;
     font-family:'Alegreya', sans-serif ;
-}
-p {
-	font-size: 15px;
 }
