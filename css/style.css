@@ -154,6 +154,7 @@ top:0;
 height:100%;
 width:100%;
 position:absolute;
+border:0;
 }
 .col-md-9 mb-md-0 mb-5{
 padding-left: 15px;
